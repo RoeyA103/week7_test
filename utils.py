@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import re
 
 def data_frame_conversion(df):
     def clean_sign(column):
@@ -20,8 +21,6 @@ def data_frame_conversion(df):
 
     return df
 
-
-import re
 
 def cleanhtml_column(column):
     def cleanhtml(raw_html):

@@ -24,6 +24,4 @@ orders = filter_by_amount_rating(orders)
 
 orders = create_delivery_status_col(orders)
 
-print(orders.shape)
-
 orders.to_csv("clean_orders_[ID_NUMBER].csv")
